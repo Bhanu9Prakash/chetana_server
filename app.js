@@ -24,7 +24,7 @@ const PORT = 4002;
 
 // middleware
 app.use(express.json());
-app.use(cors((origin = ["http://localhost:3000", "https://web-production-de1e.up.railway.app/"])));
+app.use(cors((origin = ["https://celebrated-sable-39cb58.netlify.app/", "https://web-production-de1e.up.railway.app/"])));
 app.use(router);
 
 app.listen(PORT, () => {
